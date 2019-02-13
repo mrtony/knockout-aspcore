@@ -133,6 +133,16 @@ entry: {
 ## 完美的razor view + + view model + knockout
 > We need a simple server side ViewModel to show how Asp.net Mvc views and knockout.js bindings may play well together. Please note that this is something quite difficult to achieve with other client frameworks like angular and react.js.
 
-其他的framework, 如angular, react沒有辦法完美的結合view model.
+其他的framework, 如angular, react沒有辦法完美的結合view model. 同時也使用了一些`tag helper`來處理表單及驗證.
+- asp-for
+- asp-controller
+- asp-action
+
+- asp-validation-for
+
+1. 先新增一個viewModel
+2. 在HomeController加入一個Get跟Post的同名action
+3. 建立view
+4. 加入route到nav-menu.html
 
 
