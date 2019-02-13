@@ -99,3 +99,16 @@ webpack提供HMR功能, 主要在`Startup.cs/Configure`中去設定.
 
 > Hybrid SPA/Razor pages that mix both server side and SPA techniques offer great flexibility in practical applications because applications based entirely on SPA techniques offer a better interaction with the user but cost more, are more difficult to maintain and have a shorter life since client side techniques evolve very quickly.
 
+---
+
+## 建立Razor view
+為了可以使用另一個razor view, 將建立一個`Tab View`的功能.
+
+配合`data-external=true`語法, 在`router.ts`中修改點擊link時的處理.
+```
+if (href && href.charAt(0) == '/'
+    && !$(target).attr('data-external')) {
+    history.push(href);
+    evt.preventDefault();
+}
+```
