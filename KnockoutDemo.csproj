@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\mvc.ts" />
     <None Remove="ClientApp\tab.ts" />
   </ItemGroup>
 
@@ -25,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\mvc.ts" />
     <TypeScriptCompile Include="ClientApp\tab.ts" />
   </ItemGroup>
 

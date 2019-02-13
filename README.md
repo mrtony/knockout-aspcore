@@ -128,3 +128,11 @@ entry: {
 }
 ```
 
+---
+
+## 完美的razor view + + view model + knockout
+> We need a simple server side ViewModel to show how Asp.net Mvc views and knockout.js bindings may play well together. Please note that this is something quite difficult to achieve with other client frameworks like angular and react.js.
+
+其他的framework, 如angular, react沒有辦法完美的結合view model.
+
+

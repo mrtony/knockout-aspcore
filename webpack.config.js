@@ -10,7 +10,8 @@ module.exports = (env) => {
         stats: { modules: false },
         entry: {
             'main': './ClientApp/boot.ts',
-            'tab': './ClientApp/tab.ts'
+            'tab': './ClientApp/tab.ts',
+            'mvc': './ClientApp/mvc.ts'
         },
         resolve: { extensions: [ '.js', '.ts' ] },
         output: {

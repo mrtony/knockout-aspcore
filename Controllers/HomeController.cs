@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using KnockoutDemo.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KnockoutDemo.Controllers
@@ -17,6 +18,17 @@ namespace KnockoutDemo.Controllers
         public IActionResult TabSelector()
         {
             return View();
+        }
+
+        public IActionResult KnockoutMvc()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult KnockoutMvc(SimpleTextViewModel model)
+        {
+            return View(model);
         }
 
         public IActionResult Error()
