@@ -2,6 +2,9 @@
 
 [Building Web applications with Knockout.js and ASP.NET Core](https://www.dotnetcurry.com/aspnet/1394/aspnet-core-knockout)
 
+
+另一個參考: [Razor Pages, TypeScript and Knockout](https://www.mikesdotnetting.com/article/321/razor-pages-typescript-and-knockout)
+
 ## 安裝範本
 Nuget的[Microsoft.AspNetCore.SpaTemplates](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/)提供了所有SPAhjju dm 
 .
@@ -91,4 +94,8 @@ webpack提供HMR功能, 主要在`Startup.cs/Configure`中去設定.
 ## 由controller載入資料
 系統使用`isomorphic-fetch`向controller取資料.
 
+## Several Razor Views with Knockout.js components
+使用單一Razor view + knockout spa的成本較高, 某些狀況下可以使用`混合型SPA`.
+
+> Hybrid SPA/Razor pages that mix both server side and SPA techniques offer great flexibility in practical applications because applications based entirely on SPA techniques offer a better interaction with the user but cost more, are more difficult to maintain and have a shorter life since client side techniques evolve very quickly.
 
