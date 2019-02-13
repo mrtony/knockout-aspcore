@@ -112,3 +112,7 @@ if (href && href.charAt(0) == '/'
     evt.preventDefault();
 }
 ```
+
+1. 在HomeController中加入`TabSelector`的action及view.
+2. 在nav-menu.html加入`li, a`連到`/Home/TabSelector`
+
