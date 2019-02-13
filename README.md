@@ -71,3 +71,24 @@ npm i -g typescript@2.8.3
 **VS2017`Web Package`砞﹚**
 `ㄣ/匡兜/盡㎝よ/Web Package Management`い, 盢`$PATH`簿材1, 眏VS2017ㄏノnpm杆
 tsc
+
+## 玡狠だ猂
+
+### 更だ猂
+呼パ`HomeController``Index`View更. ウ穦甅ノ`Shared/_Layout.cshtml`, 更`vendor.css, vendor.js`单, 更`main.js`.
+
+τ`site.css`Τ`production`穦暗更.
+
+硂ㄇ砞﹚常琌パ`webpack`ㄓ矪瞶.
+
+### hot module replacement
+webpack矗ㄑHMR, 璶`Startup.cs/Configure`い砞﹚.
+
+### lazy load
+┮Τpage常琌`lazy load`よΑ更, ぃノ秨﹍场更. ㄏノ[custom knockout.js component loader](http://knockoutjs.com/documentation/component-loaders.html),
+`webpack-component-loader.ts`いΤ龟ЧΘlazy-load.
+
+## パcontroller更戈
+╰参ㄏノ`isomorphic-fetch`controller戈.
+
+
