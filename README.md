@@ -116,3 +116,15 @@ if (href && href.charAt(0) == '/'
 1. 在HomeController中加入`TabSelector`的action及view.
 2. 在nav-menu.html加入`li, a`連到`/Home/TabSelector`
 
+
+**引入完整的頁面內容**
+1. 在連到到新的tabSelector razor頁面後, 需要建立一個`tab.ts`(像主頁是使用boot.ts). 
+2. 同時要修改webpack.config.js, 建立multi-entry
+
+```
+entry: {
+    'main': './ClientApp/boot.ts',
+    'tab': './ClientApp/tab.ts'
+}
+```
+
