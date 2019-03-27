@@ -3,108 +3,115 @@
 [Building Web applications with Knockout.js and ASP.NET Core](https://www.dotnetcurry.com/aspnet/1394/aspnet-core-knockout)
 
 
-¥t¤@­Ó°Ñ¦Ò: [Razor Pages, TypeScript and Knockout](https://www.mikesdotnetting.com/article/321/razor-pages-typescript-and-knockout)
+å¦ä¸€å€‹åƒè€ƒ: [Razor Pages, TypeScript and Knockout](https://www.mikesdotnetting.com/article/321/razor-pages-typescript-and-knockout)
 
-## ¦w¸Ë½d¥»
-Nugetªº[Microsoft.AspNetCore.SpaTemplates](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/)´£¨Ñ¤F©Ò¦³SPAhjju dm 
+## é‡æ–°å•Ÿå‹•
+
+1. å°ˆæ¡ˆç›®éŒ„ä¸‹é–‹å•Ÿconsole
+2. åŸ·è¡Œ `dotnet run`
+3. é–‹å•Ÿbrowser
+4. Debug: attach process
+
+## å®‰è£ç¯„æœ¬
+Nugetçš„[Microsoft.AspNetCore.SpaTemplates](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/)æä¾›äº†æ‰€æœ‰SPAhjju dm 
 .
 
-¦w¸Ë©Ò¦³½d¥»
+å®‰è£æ‰€æœ‰ç¯„æœ¬
 ```
 dotnet -v
-## ¦w¸Ë½d¥»
-Nugetªº[Microsoft.AspNetCore.SpaTemplates](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/)´£¨Ñ¤F©Ò¦³SPAhjju dm 
+## å®‰è£ç¯„æœ¬
+Nugetçš„[Microsoft.AspNetCore.SpaTemplates](https://www.nuget.org/packages/Microsoft.AspNetCore.SpaTemplates/)æä¾›äº†æ‰€æœ‰SPAhjju dm 
 .
 
-¦w¸Ë©Ò¦³½d¥»
+å®‰è£æ‰€æœ‰ç¯„æœ¬
 ```
 dotnet -v
 
-//¦w¸Ë©Ò¦³½d¥»
+//å®‰è£æ‰€æœ‰ç¯„æœ¬
 dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
 
-//¬d¬İ¦³­ş¨Ç½d¥»¥i¨Ï¥Î
+//æŸ¥çœ‹æœ‰å“ªäº›ç¯„æœ¬å¯ä½¿ç”¨
 dotnet new --help
 ```
 
-¦b`KnockoutDemo`¥Ø¿ı¤U«Ø¥ßknockout spa½d¥»
+åœ¨`KnockoutDemo`ç›®éŒ„ä¸‹å»ºç«‹knockout spaç¯„æœ¬
 ```
 dotnet new knockout
 ```
 
-ÁÙ­ìpackage
+é‚„åŸpackage
 ```
 npm install
 npm audit fix
 npm audit fix --force
 ```
 
-¦w¸Ë`typescript`
+å®‰è£`typescript`
 ```
 npm i -g typescript@2.8.3
 ```
 
-**VS2017ªº`Web Package`³]©w**
-¦b`¤u¨ã/¿ï¶µ/±M®×©M¤è®×/Web Package Management`¤¤, ±N`$PATH`²¾¨ì²Ä1­Ó, ±j­¢VS2017¨Ï¥Înpm¸Ëªº
+**VS2017çš„`Web Package`è¨­å®š**
+åœ¨`å·¥å…·/é¸é …/å°ˆæ¡ˆå’Œæ–¹æ¡ˆ/Web Package Management`ä¸­, å°‡`$PATH`ç§»åˆ°ç¬¬1å€‹, å¼·è¿«VS2017ä½¿ç”¨npmè£çš„
 tsc
-//¦w¸Ë©Ò¦³½d¥»
+//å®‰è£æ‰€æœ‰ç¯„æœ¬
 dotnet new --install Microsoft.AspNetCore.SpaTemplates::*
 
-//¬d¬İ¦³­ş¨Ç½d¥»¥i¨Ï¥Î
+//æŸ¥çœ‹æœ‰å“ªäº›ç¯„æœ¬å¯ä½¿ç”¨
 dotnet new --help
 ```
 
-¦b`KnockoutDemo`¥Ø¿ı¤U«Ø¥ßknockout spa½d¥»
+åœ¨`KnockoutDemo`ç›®éŒ„ä¸‹å»ºç«‹knockout spaç¯„æœ¬
 ```
 dotnet new knockout
 ```
 
-ÁÙ­ìpackage
+é‚„åŸpackage
 ```
 npm install
 npm audit fix
 npm audit fix --force
 ```
 
-¦w¸Ë`typescript`
+å®‰è£`typescript`
 ```
 npm i -g typescript@2.8.3
 ```
 
-**VS2017ªº`Web Package`³]©w**
-¦b`¤u¨ã/¿ï¶µ/±M®×©M¤è®×/Web Package Management`¤¤, ±N`$PATH`²¾¨ì²Ä1­Ó, ±j­¢VS2017¨Ï¥Înpm¸Ëªº
+**VS2017çš„`Web Package`è¨­å®š**
+åœ¨`å·¥å…·/é¸é …/å°ˆæ¡ˆå’Œæ–¹æ¡ˆ/Web Package Management`ä¸­, å°‡`$PATH`ç§»åˆ°ç¬¬1å€‹, å¼·è¿«VS2017ä½¿ç”¨npmè£çš„
 tsc
 
-## «eºİ¤ÀªR
+## å‰ç«¯åˆ†æ
 
-### ­¶­±¸ü¤J¤ÀªR
-ºô¯¸¥Ñ`HomeController`ªº`Index`ªºView¸ü¤J. ¥¦·|®M¥Î`Shared/_Layout.cshtml`, ¸ü¤J`vendor.css, vendor.js`µ¥, ¦A¸ü¤J`main.js`.
+### é é¢è¼‰å…¥åˆ†æ
+ç¶²ç«™ç”±`HomeController`çš„`Index`çš„Viewè¼‰å…¥. å®ƒæœƒå¥—ç”¨`Shared/_Layout.cshtml`, è¼‰å…¥`vendor.css, vendor.js`ç­‰, å†è¼‰å…¥`main.js`.
 
-¦Ó`site.css`¥u¦³¦b`production`®É¤~·|°µ¸ü¤J.
+è€Œ`site.css`åªæœ‰åœ¨`production`æ™‚æ‰æœƒåšè¼‰å…¥.
 
-³o¨Ç³]©w³£¬O¥Ñ`webpack`¨Ó³B²zªº.
+é€™äº›è¨­å®šéƒ½æ˜¯ç”±`webpack`ä¾†è™•ç†çš„.
 
 ### hot module replacement
-webpack´£¨ÑHMR¥\¯à, ¥D­n¦b`Startup.cs/Configure`¤¤¥h³]©w.
+webpackæä¾›HMRåŠŸèƒ½, ä¸»è¦åœ¨`Startup.cs/Configure`ä¸­å»è¨­å®š.
 
 ### lazy load
-©Ò¦³page³£¬O¥H`lazy load`¤è¦¡¸ü¤J, ¤£¥Î¤@¶}©l¥ş³¡¸ü¤J. ¦]¦¹¨Ï¥Î¤F[custom knockout.js component loader](http://knockoutjs.com/documentation/component-loaders.html),
-¦b`webpack-component-loader.ts`¤¤¦³¹ê§@¥H§¹¦¨lazy-load¥\¯à.
+æ‰€æœ‰pageéƒ½æ˜¯ä»¥`lazy load`æ–¹å¼è¼‰å…¥, ä¸ç”¨ä¸€é–‹å§‹å…¨éƒ¨è¼‰å…¥. å› æ­¤ä½¿ç”¨äº†[custom knockout.js component loader](http://knockoutjs.com/documentation/component-loaders.html),
+åœ¨`webpack-component-loader.ts`ä¸­æœ‰å¯¦ä½œä»¥å®Œæˆlazy-loadåŠŸèƒ½.
 
-## ¥Ñcontroller¸ü¤J¸ê®Æ
-¨t²Î¨Ï¥Î`isomorphic-fetch`¦Vcontroller¨ú¸ê®Æ.
+## ç”±controllerè¼‰å…¥è³‡æ–™
+ç³»çµ±ä½¿ç”¨`isomorphic-fetch`å‘controllerå–è³‡æ–™.
 
 ## Several Razor Views with Knockout.js components
-¨Ï¥Î³æ¤@Razor view + knockout spaªº¦¨¥»¸û°ª, ¬Y¨Çª¬ªp¤U¥i¥H¨Ï¥Î`²V¦X«¬SPA`.
+ä½¿ç”¨å–®ä¸€Razor view + knockout spaçš„æˆæœ¬è¼ƒé«˜, æŸäº›ç‹€æ³ä¸‹å¯ä»¥ä½¿ç”¨`æ··åˆå‹SPA`.
 
 > Hybrid SPA/Razor pages that mix both server side and SPA techniques offer great flexibility in practical applications because applications based entirely on SPA techniques offer a better interaction with the user but cost more, are more difficult to maintain and have a shorter life since client side techniques evolve very quickly.
 
 ---
 
-## «Ø¥ßRazor view
-¬°¤F¥i¥H¨Ï¥Î¥t¤@­Órazor view, ±N«Ø¥ß¤@­Ó`Tab View`ªº¥\¯à.
+## å»ºç«‹Razor view
+ç‚ºäº†å¯ä»¥ä½¿ç”¨å¦ä¸€å€‹razor view, å°‡å»ºç«‹ä¸€å€‹`Tab View`çš„åŠŸèƒ½.
 
-°t¦X`data-external=true`»yªk, ¦b`router.ts`¤¤­×§ïÂIÀ»link®Éªº³B²z.
+é…åˆ`data-external=true`èªæ³•, åœ¨`router.ts`ä¸­ä¿®æ”¹é»æ“Šlinkæ™‚çš„è™•ç†.
 ```
 if (href && href.charAt(0) == '/'
     && !$(target).attr('data-external')) {
@@ -113,13 +120,13 @@ if (href && href.charAt(0) == '/'
 }
 ```
 
-1. ¦bHomeController¤¤¥[¤J`TabSelector`ªºaction¤Îview.
-2. ¦bnav-menu.html¥[¤J`li, a`³s¨ì`/Home/TabSelector`
+1. åœ¨HomeControllerä¸­åŠ å…¥`TabSelector`çš„actionåŠview.
+2. åœ¨nav-menu.htmlåŠ å…¥`li, a`é€£åˆ°`/Home/TabSelector`
 
 
-**¤Ş¤J§¹¾ãªº­¶­±¤º®e**
-1. ¦b³s¨ì¨ì·sªºtabSelector razor­¶­±«á, »İ­n«Ø¥ß¤@­Ó`tab.ts`(¹³¥D­¶¬O¨Ï¥Îboot.ts). 
-2. ¦P®É­n­×§ïwebpack.config.js, «Ø¥ßmulti-entry
+**å¼•å…¥å®Œæ•´çš„é é¢å…§å®¹**
+1. åœ¨é€£åˆ°åˆ°æ–°çš„tabSelector razoré é¢å¾Œ, éœ€è¦å»ºç«‹ä¸€å€‹`tab.ts`(åƒä¸»é æ˜¯ä½¿ç”¨boot.ts). 
+2. åŒæ™‚è¦ä¿®æ”¹webpack.config.js, å»ºç«‹multi-entry
 
 ```
 entry: {
@@ -130,19 +137,19 @@ entry: {
 
 ---
 
-## §¹¬üªºrazor view + + view model + knockout
+## å®Œç¾çš„razor view + + view model + knockout
 > We need a simple server side ViewModel to show how Asp.net Mvc views and knockout.js bindings may play well together. Please note that this is something quite difficult to achieve with other client frameworks like angular and react.js.
 
-¨ä¥Lªºframework, ¦pangular, react¨S¦³¿ìªk§¹¬üªºµ²¦Xview model. ¦P®É¤]¨Ï¥Î¤F¤@¨Ç`tag helper`¨Ó³B²zªí³æ¤ÎÅçÃÒ.
+å…¶ä»–çš„framework, å¦‚angular, reactæ²’æœ‰è¾¦æ³•å®Œç¾çš„çµåˆview model. åŒæ™‚ä¹Ÿä½¿ç”¨äº†ä¸€äº›`tag helper`ä¾†è™•ç†è¡¨å–®åŠé©—è­‰.
 - asp-for
 - asp-controller
 - asp-action
 
 - asp-validation-for
 
-1. ¥ı·s¼W¤@­ÓviewModel
-2. ¦bHomeController¥[¤J¤@­ÓGet¸òPostªº¦P¦Waction
-3. «Ø¥ßview
-4. ¥[¤Jroute¨ìnav-menu.html
+1. å…ˆæ–°å¢ä¸€å€‹viewModel
+2. åœ¨HomeControlleråŠ å…¥ä¸€å€‹Getè·ŸPostçš„åŒåaction
+3. å»ºç«‹view
+4. åŠ å…¥routeåˆ°nav-menu.html
 
 
